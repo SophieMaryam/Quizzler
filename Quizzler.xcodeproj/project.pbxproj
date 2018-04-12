@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12072BC8207F93E5005A45F8 /* question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12072BC7207F93E5005A45F8 /* question.swift */; };
+		12072BCA207F9AB0005A45F8 /* QuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12072BC9207F9AB0005A45F8 /* QuestionBank.swift */; };
 		633646BF1B8C657400FF45E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633646BE1B8C657400FF45E2 /* AppDelegate.swift */; };
 		633646C11B8C657400FF45E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633646C01B8C657400FF45E2 /* ViewController.swift */; };
 		633646C61B8C657400FF45E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 633646C51B8C657400FF45E2 /* Images.xcassets */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12072BC7207F93E5005A45F8 /* question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = question.swift; sourceTree = "<group>"; };
+		12072BC9207F9AB0005A45F8 /* QuestionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBank.swift; sourceTree = "<group>"; };
 		633646B91B8C657400FF45E2 /* Quizzler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quizzler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		633646BD1B8C657400FF45E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		633646BE1B8C657400FF45E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +87,8 @@
 		EBB1C72C1B946C530011F5C3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				12072BC7207F93E5005A45F8 /* question.swift */,
+				12072BC9207F9AB0005A45F8 /* QuestionBank.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -169,7 +175,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				633646C11B8C657400FF45E2 /* ViewController.swift in Sources */,
+				12072BCA207F9AB0005A45F8 /* QuestionBank.swift in Sources */,
 				633646BF1B8C657400FF45E2 /* AppDelegate.swift in Sources */,
+				12072BC8207F93E5005A45F8 /* question.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,7 +310,7 @@
 				INFOPLIST_FILE = Quizzler/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.londonappbrewery.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sophievanwersch.Quizzler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -319,7 +327,7 @@
 				INFOPLIST_FILE = Quizzler/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.londonappbrewery.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sophievanwersch.Quizzler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
